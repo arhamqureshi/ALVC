@@ -19,9 +19,6 @@ The following settings can be set in the program:
 |**Delete Original File**|If set to yes, the original gameplay video will be permanently deleted. You should keep this set to "No" unless you're absolutely sure you won't need the original video.|
 |**Input & Output Folders**|The first directory should be where your gameplay recordings are stored and the second directory is where you want the clips to be saved. The program will analyse every compatible video in the input directory.|
 
-#### Note
-A file called ".alvc-settings.json" is created in your home directory (C:/Users/Your Profile) when launching the program for the first time. The purpose of this file is to store your settings so they don't change to the default values every time you launch the program.
-
 ### Cancelling The Process
 Cancelling the process will only prevent the current and future videos from being processed, but all previous actions will not be reversed. The program makes changes as the process runs, so if the previous videos had been marked for deletion, they will be deleted and the program cannot reverse this.
 
