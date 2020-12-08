@@ -1,8 +1,6 @@
-import cv2, math, concurrent.futures, itertools
-from timeit import default_timer as timer
+import cv2
 from src.analyse_image import get_expected_result, compare
 from progress.bar import Bar
-from multiprocessing import cpu_count
 
 def analyse_frames(video_path, frames, progress, gui):
     """

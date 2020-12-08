@@ -1,5 +1,4 @@
-# importing tkinter module
-import time, threading, ctypes, os, json
+import threading, ctypes, os, json
 from tkinter import (
     Tk, Entry, Label, StringVar, IntVar, Button, DISABLED, NORMAL, HORIZONTAL,
     filedialog, Frame, Radiobutton, messagebox, E, SUNKEN, RIDGE, END, font
