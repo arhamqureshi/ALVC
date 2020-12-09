@@ -77,7 +77,9 @@ def create_clips(input_dir, filename, output_dir, merge=False, pre=2, post=0.8, 
     """
     path = os.path.join(input_dir, filename)
     timestamps = analyse_timestamps(get_timestamps(path, sample_rate, gui))
-
+    gui.knocks_elims_found = gui.knocks_elims_found + len(timestamps)
+    gui.update_progress("knocks_elims", 0, 0, 0) # All values are 0 because this is handled differently
+    
     for idx, timestamp in enumerate(timestamps):
         start_time = timestamp - pre if timestamp - pre > 0 else 0
         end_time = timestamp + post
