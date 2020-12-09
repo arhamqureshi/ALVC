@@ -28,6 +28,9 @@ Cancelling the process will only prevent the current and future videos from bein
 ## Issues
 If you have encountered an issue with the program please create a [Bug Report](https://github.com/arhamqureshi/ALVC/issues/new/choose) in the Issues section of the GitHub Repository. Please provide as much information as you can including screenshots if possible!
 
+## Credits
+Program Icon - https://icons8.com/icon/TpYQ11NfJTk5/apex-legends
+
 ## Support Me!
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=WALNKNVGR4L8S&currency_code=AUD)
 

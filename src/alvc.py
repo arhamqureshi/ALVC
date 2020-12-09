@@ -5,6 +5,7 @@ from tkinter import (
 )
 from tkinter.ttk import Progressbar
 from src.slicer import create_clips
+from src.analyse_image import resource_path
 import webbrowser
 
 
@@ -16,6 +17,9 @@ class GUI(Frame):
         Frame.__init__(self, gui)
         self.__version__ = "v1.1.0"
         self.gui = gui
+
+        self.gui.title("ALVC ({})".format(self.__version__))
+        self.gui.iconbitmap(resource_path("alvc.ico"))
 
         # Create the different sections in the GUI.
         self.information = Frame(self.gui)
@@ -35,8 +39,6 @@ class GUI(Frame):
 
         self.credits = Frame(self.gui)
         self.credits.grid(row=5, column=0, padx=20, pady=10)
-
-        self.gui.title("ALVC ({})".format(self.__version__))
         
         # Create a settings file
         # This file saves the settings set so they don't reset to the defaults
