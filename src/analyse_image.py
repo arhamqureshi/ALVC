@@ -92,11 +92,4 @@ def get_expected_result():
 	as the other images for an accurate comparison. I believe it has something to do
 	with how the image is structured in the np.array after the manipulatio
 	"""
-	return manipulate([15, 42, 191], [89, 109, 255], cv2.imread(resource_path("expected.png")))
-
-# if __name__ == "__main__":
-# 	# For Debugging
-# 	img1 = get_expected_result()
-# 	result, score = compare(img1, cv2.imread("hitmarker5.png"))
-# 	print(result, score)
-
+	return manipulate([15, 42, 191], [89, 109, 255], cv2.imread(resource_path("hitmarker.png")))
